@@ -1,0 +1,111 @@
+     nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   border: 2px solid #cecece ;
+   background-color: #f6f6f6;
+   border-radius: 6px;
+   padding: 8px 0;
+  height: 
+  40px;
+  margin: 44px;
+position: relative;
+top: -38px;
+
+        }
+        .img img{
+            height: 44px;
+        }
+        .first{
+           display: flex;
+           gap: 30px;
+           list-style: none;
+           margin: 53px;
+          
+           
+
+        }
+        
+        .font{
+            display: flex;
+            justify-content: center;
+            font-size: 55px;
+            align-items: center;
+            margin: 12px;
+               font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+position:sticky;
+
+        }
+        img{
+            height: 45px;
+            margin: 19px;
+            display: flex;
+           
+        }
+        .line h3{
+            display:flex;
+          align-items: center;
+            color: grey;
+                font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+                justify-content: center;
+                align-content: center;
+        }
+   .button-btn{
+    justify-content: center;
+    display: flex;
+      margin: 23px;
+   }
+   .download{
+     background-color: #ffd741;
+    color: #2e2e2e;
+    padding: 12px 22px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    margin: 23px;
+   }
+   .edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      color: grey;
+                font-family: Inter, Helvetica, Arial, Lucida, sans-serif;
+                font-size: 20px;
+   }
+  .edit small{
+    margin: 7px;
+
+  }
+  .english{
+    width: 18vw;
+text-align: center;
+    padding: 12px;
+    border: 2px solid grey ;
+font-size: 12px;
+font-weight:lighter;
+display: grid;
+border-radius: 12px;
+background-color: #f2f0ec;
+border: none;
+
+  }
+  .english-btn{
+        background-color: #ffd741;
+    color: #2e2e2e;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: none;
+  }
+  .code{
+    margin: 2px;
+    text-align: center;
+  }
+  .copied{
+    font-size: 7px;
+  }
+  .english h3{
+    font-size: 19px;
+  }
