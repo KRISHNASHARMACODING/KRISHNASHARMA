@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password generator</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .container input{
+            height: 55px;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 22px;
+            background-color: aqua;
+            box-shadow: 12px 11px 12px #444;
+            border:none  ;
+            border-radius: 12px;
+            cursor: pointer;
+            
+        }
+        input:hover{
+            filter: drop-shadow(12px 11px 12px orange);
+            transform: scale(0.9);
+        }
+        p{
+            text-align: center;
+            font-size: 32px;
+            font-weight: bolder;
+            height: 45px;
+            background-color: aquamarine;
+            border-radius: 9px;
+            display: none;
+           
+    
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="input" placeholder="Enter your password">
+        <p class="msg"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
